@@ -1,0 +1,15 @@
+jag skrev stash så det skulle gömma och sen stash pop så kom det tillbaka
+sen gjorde man echo "" >> notes.txt
+git add notes.txt
+git commit -m ""
+git status
+git log
+
+uppgift
+git rebase i- HEAD~3
+sen bytte man ordning
+efetr det 
+git rebase i- HEAD~3
+oc böt pick med drop och controll e så det deleta den du skrev drop på
+
+om man vill ta bort utan rebase så skriver man git reset HEAD~(och den du vill deleta) och sen far den bort
